@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thanadon Somjit</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="gallary.css">
+</head>
+
+<body class="bg-dark text-light">
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <div class="container">
+    <a class="navbar-brand fw-bold text-danger" href="#">🎬 Movie Gallery</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#">หน้าแรก</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">บริการ</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">เกี่ยวกับเรา</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">ติดต่อเรา</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Title -->
+<div class="container text-center my-5">
+  <h1 class="fw-bold">ภาพยนตร์น่าดู</h1>
+  <p class="text-muted">ไปดูกันเลย</p>
+  <div class="container my-4">
+  <div class="search-box mx-auto">
+    <i class="fas fa-search search-icon"></i>
+    <input
+      type="text"
+      id="searchInput"
+      placeholder="ค้นหาภาพยนตร์ ซีรีส์"
+      onkeyup="searchMovie()"
+    >
+  </div>
+
+
+</div>
+
+<!-- Gallery -->
+<div class="container">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="img-box">
+        <img src="01-facebook.commstudiomovies-819x1024.webp" class="movie-img">
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="img-box">
+        <img src="pic02-674x1024.webp" class="movie-img">
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="img-box">
+        <img src="The-Little-Mermaid.webp" class="movie-img">
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="img-box">
+        <img src="qx0ptj1vvpls.jpg" class="movie-img">
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="img-box">
+        <img src="MHSlKMKA5qWWNBqwGUSN.webp" class="movie-img">
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="img-box">
+        <img src="YwHkpQhpIw4zkTnoTFQI.webp" class="movie-img">
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-black text-light mt-5 pt-4">
+  <div class="container text-center">
+    <h5 class="fw-bold"> Thanadon Somjit</h5>
+    <p class="text-muted">เว็บไซต์แสดงผลงานและกิจกรรมต่างๆ</p>
+
+    <p class="text-muted small">
+      © 2026 Thanadon Somjit | For Educational Purpose
+    </p>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
